@@ -16,19 +16,19 @@ Basic knowledge of C# and OOP concepts.
 ## Installation
  **Clone the Repository**:
    ```sh
-    git clone https://github.com/yourusername/library-management-system.git 
+    git clone https://github.com/yourusername/library-management-system.git ```
 
 **Navigate to the Project Directory**:
 ```sh
-cd library-management-system
+cd library-management-system```
 
 **Build the Project**:
    ```sh
-dotnet build
+dotnet build```
 
 **Run the Project**:
    ```sh
-dotnet run
+dotnet run```
 
 **Project Structure**:
 ```bash
@@ -45,6 +45,7 @@ LibraryManagementSystem/
 ├── Reports/
 │   └── ReportGenerator.cs    # Generates reports for the library
 └── README.md                 # This README file
+```
 
 
 
