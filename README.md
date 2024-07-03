@@ -17,3 +17,34 @@ Basic knowledge of C# and OOP concepts.
  **Clone the Repository**:
    ```sh
     git clone https://github.com/yourusername/library-management-system.git 
+
+**Navigate to the Project Directory**:
+```sh
+cd library-management-system
+
+**Build the Project**:
+   ```sh
+dotnet build
+
+**Run the Project**:
+   ```sh
+dotnet run
+
+**Project Structure**:
+```bash
+LibraryManagementSystem/
+├── Program.cs                # Entry point of the application
+├── Models/
+│   ├── Book.cs               # Book class representing a book in the library
+│   ├── Member.cs             # Member class representing a library member
+│   └── Transaction.cs        # Transaction class representing borrow/return transactions
+├── Services/
+│   ├── BookService.cs        # Service for managing books
+│   ├── MemberService.cs      # Service for managing members
+│   └── TransactionService.cs # Service for managing transactions
+├── Reports/
+│   └── ReportGenerator.cs    # Generates reports for the library
+└── README.md                 # This README file
+
+
+
