@@ -14,5 +14,6 @@
 Basic knowledge of C# and OOP concepts.
 
 ## Installation
-Clone the Repository:
-```git clone https://github.com/yourusername/library-management-system.git ``` 
+ **Clone the Repository**:
+   ```sh
+    git clone https://github.com/yourusername/library-management-system.git 
