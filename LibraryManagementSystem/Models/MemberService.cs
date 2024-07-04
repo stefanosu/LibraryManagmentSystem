@@ -1,9 +1,9 @@
 ﻿using System;
 namespace LibraryManagementSystem.Models
 {
-	public class Member
+	public class MemberService
 	{
-		public Member()
+		public MemberService()
 		{
 		}
 	}

@@ -1,9 +1,9 @@
 ﻿using System;
 namespace LibraryManagementSystem.Controllers
 {
-	public class Memeber
+	public class MemeberService
 	{
-		public Memeber()
+		public MemeberService()
 		{
 		}
 	}
