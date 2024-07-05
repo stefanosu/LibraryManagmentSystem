@@ -1,9 +1,8 @@
 ﻿using System;
 namespace LibraryManagementSystem.Controllers
 {
-	public class BooksController
+	public class BookService
 	{
-
 	}
 
 
