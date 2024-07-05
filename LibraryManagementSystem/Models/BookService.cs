@@ -5,6 +5,7 @@ namespace LibraryManagementSystem.Models
 	{
 		public BookManagement()
 		{
+			int book = 10;
 		}
 	}
 }
