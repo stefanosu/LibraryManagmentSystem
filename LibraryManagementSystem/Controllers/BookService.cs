@@ -1,11 +1,11 @@
 ﻿using System;
 namespace LibraryManagementSystem.Controllers
 {
-	public class BookService
+	public class BooksController
 	{
-		public BookService()
-		{
-		}
+
 	}
+
+
 }
 

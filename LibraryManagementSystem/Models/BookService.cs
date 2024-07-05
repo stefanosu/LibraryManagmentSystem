@@ -1,11 +1,10 @@
 ﻿using System;
 namespace LibraryManagementSystem.Models
 {
-	public class BookManagement
+	public class BookService
 	{
-		public BookManagement()
+		public BookService()
 		{
-			int book = 10;
 		}
 	}
 }
