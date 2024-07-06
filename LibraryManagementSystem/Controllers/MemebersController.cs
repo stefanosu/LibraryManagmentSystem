@@ -3,7 +3,9 @@ namespace LibraryManagementSystem.Controllers
 {
 	public class MemebersController
 	{
-		public MemebersController()
+        //create methods here for CRUD operations for memebers
+
+        public MemebersController()
 		{
 		}
 	}

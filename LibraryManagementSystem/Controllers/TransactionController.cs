@@ -3,7 +3,9 @@ namespace LibraryManagementSystem.Controllers
 {
 	public class TransactionController
 	{
-		public TransactionController()
+        //create methods here for CRUD operations for transactions
+
+        public TransactionController()
 		{
 		}
 	}
