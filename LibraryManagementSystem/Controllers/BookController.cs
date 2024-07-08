@@ -24,6 +24,12 @@ namespace LibraryManagementSystem.Controllers
             // Add a book
             bookController.AddBook(new Book { Id = 1, Title = "The Great Gatsby", Author = "F. Scott Fitzgerald", Year = 1925 });
 
+        }
+
+
+        public void GetAllBooks(Book book)
+		{
+            //This method will Get a list of books
             // Get all books
             var books = bookController.GetAllBooks();
             foreach (var book in books)
@@ -37,12 +43,7 @@ namespace LibraryManagementSystem.Controllers
             throw new NotImplementedException();
         }
 
-        public void GetAllBooks(Book book)
-		{
-			//This method will Get a list of books
-		}
-
-		public void UpdateBook(Book book)
+        public void UpdateBook(Book book)
 		{
 			//this method will update a book
 		}
