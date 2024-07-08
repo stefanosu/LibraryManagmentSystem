@@ -5,7 +5,7 @@ namespace LibraryManagementSystem.Controllers
 	{
         //create methods here for CRUD operations for memebers
 
-        public void AddMember()
+        public void AddMemeber()
 		{
 		}
 	}
