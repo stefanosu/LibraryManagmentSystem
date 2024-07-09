@@ -32,10 +32,6 @@ namespace LibraryManagementSystem.Controllers
             //This method will Get a list of books
             // Get all books
             var books = bookController.GetAllBooks();
-            foreach (var book in books)
-            {
-                Console.WriteLine($"ID: {book.Id}, Title: {book.Title}, Author: {book.Author}, Year: {book.Year}");
-            }
         }
 
         private IEnumerable<object> GetAllBooks()
