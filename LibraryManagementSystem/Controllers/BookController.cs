@@ -36,13 +36,6 @@ namespace LibraryManagementSystem.Controllers
 
         public void GetAllBooks(Book book)
         {
-            //This method will Get a list of books
-            // Get all books
-             IEnumerable<Book> GetAllBooks()
-            {
-                return books;
-            }
-
         }
 
         public void UpdateBook(Book book)
