@@ -41,10 +41,14 @@ namespace LibraryManagementSystem.Controllers
             }
         }
 
-
-        public void RemoveBook(Book book)
+        //remove a book
+        public void RemoveBook(int id)
         {
-            //this method will remove a book from the list of books.
+            var book = books.Find(book => book.Id == id);
+            if(book != null)
+            {
+                books.Remove(book);
+            }
         }
 
 
@@ -67,6 +71,16 @@ namespace LibraryManagementSystem.Controllers
 
                 //update book
                 bookController.UpdateBook(2, new Book { Id = 2, Title = "Ishamel" ,Author = "Daniel Quinn", Price = 25m , Year = 1995 });
+
+                //remove book
+                bookController.RemoveBook(3);
+
+                //get allBooks after update and remove
+                allBooks = bookController.GetAllBooks();
+                foreach(var book in allBooks)
+                {
+                    Console.WriteLine($"Id: {book.Id}, Title: {book.Title}, Author: {book.Author}, Price: {book.Price}, Year: {book.Year}");
+                }
             }
         }
     }
