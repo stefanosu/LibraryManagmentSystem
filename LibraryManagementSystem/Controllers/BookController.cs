@@ -7,25 +7,9 @@ namespace LibraryManagementSystem.Controllers
     {
         //create methods here for CRUD operations on books
 
-        //creating a new instance of a Book to then add.
-        BookController bookController = new BookController();
-
-        //adding new book obj with parameters of the book
-
-
-
-        public void AddBook(Book book)
-        {
-            //this method will add a Book to the list of Books.
-
-
-            BookController bookController = new BookController();
-
-            // Add a book
-            bookController.AddBook(new Book { Id = 1, Title = "The Great Gatsby", Author = "F. Scott Fitzgerald", Year = 1925 });
-
-        }
-
+        /// <summary>
+        /// Creating a private list of books to stimulate a data store
+        /// </summary>
         private List<Book> books = new List<Book>
     {
         new Book { Id = 1, Title = "The Great Gatsby", Author = "F. Scott Fitzgerald", Price = 10.99m },
@@ -33,9 +17,15 @@ namespace LibraryManagementSystem.Controllers
         new Book { Id = 3, Title = "To Kill a Mockingbird", Author = "Harper Lee", Price = 9.99m }
     };
 
-
-        public void GetAllBooks(Book book)
+        public void AddBook(Book book)
         {
+            books.Add(book); 
+        }
+
+
+        public List<Book> GetAllBooks()
+        {
+            return books;
         }
 
         public void UpdateBook(Book book)
@@ -54,21 +44,20 @@ namespace LibraryManagementSystem.Controllers
         {
             public static void Main()
             {
-                var bookController = new BookController();
-                var books = bookController.GetAllBooks();
+                //instantiating a new instance of BookController here
+                BookController bookController = new BookController();
 
-                foreach (var book in books)
+                //Adding a new book
+                bookController.AddBook(new Book { Id = 1, Title = "I know why the cage bird sings", Author = "Maya Angelou", Price = 20.00m, Year = 1975 });
+
+                //get all books
+                var allBooks = bookController.GetAllBooks();
+                foreach(var book in allBooks)
                 {
-                    Console.WriteLine($"Id: {book}, Title: {book.Title}, Author: {book.Author}, Price: {book.Price}");
+                    Console.WriteLine($"Id: {book.Id}, Title: {book.Title}, Author: {book.Author}, Price: {book.Price}, Year: {book.Year}");
                 }
+
             }
-
-
-        }
-
-        private IEnumerable<object> GetAllBooks()
-        {
-            throw new NotImplementedException();
         }
     }
 }

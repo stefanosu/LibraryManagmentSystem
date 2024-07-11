@@ -5,4 +5,3 @@
 /Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementSystem/obj/Debug/net7.0/LibraryManagementSystem.MvcApplicationPartsAssemblyInfo.cache
 /Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementSystem/obj/Debug/net7.0/LibraryManagementSystem.RazorAssemblyInfo.cache
 /Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementSystem/obj/Debug/net7.0/LibraryManagementSystem.RazorAssemblyInfo.cs
-/Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementSystem/obj/Debug/net7.0/LibraryManagementSystem.sourcelink.json
