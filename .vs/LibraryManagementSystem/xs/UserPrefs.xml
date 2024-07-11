@@ -1,32 +1,27 @@
 ﻿<Properties StartupConfiguration="{3E155673-AF47-4A2D-B525-AA232A25E2C3}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LibraryManagementSystem/Controllers/BookController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LibraryManagementSystem/Controllers/MembersController.cs">
     <Files>
-      <File FileName="LibraryManagementSystem/Controllers/HomeController.cs" Line="7" Column="36" />
-      <File FileName="LibraryManagementSystem/Models/ErrorViewModel.cs" Line="1" Column="1" />
-      <File FileName="LibraryManagementSystem/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="LibraryManagementSystem/Views/Home/Index.cshtml" Line="1" Column="1" />
-      <File FileName="LibraryManagementSystem/Views/Shared/_Layout.cshtml" Line="16" Column="29" />
-      <File FileName="LibraryManagementSystem/Views/Home/Privacy.cshtml" Line="1" Column="1" />
-      <File FileName="LibraryManagementSystem/Controllers/BookManagement.cs" Line="22" Column="1" />
-      <File FileName="LibraryManagementSystem/Models/BookManagement.cs" Line="12" Column="6" />
-      <File FileName="LibraryManagementSystem/Controllers/Memeber.cs" Line="9" Column="4" />
-      <File FileName="LibraryManagementSystem/Models/Member.cs" Line="6" Column="23" />
       <File FileName="LibraryManagementSystem/Models/Transaction.cs" Line="11" Column="2" />
-      <File FileName="LibraryManagementSystem/Controllers/TransactionService.cs" Line="14" Column="1" />
+      <File FileName="LibraryManagementSystem/Models/Book.cs" Line="12" Column="52" />
+      <File FileName="LibraryManagementSystem/Controllers/TransactionController.cs" Line="10" Column="4" />
+      <File FileName="LibraryManagementSystem/Controllers/BookController.cs" Line="52" Column="10" />
+      <File FileName="LibraryManagementSystem/Controllers/MembersController.cs" Line="29" Column="1" />
+      <File FileName="LibraryManagementSystem/Models/Member.cs" Line="5" Column="3" />
+      <File FileName="LibraryManagementSystem/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="LibraryManagementSystem/Program.cs" Line="4" Column="47" />
+      <File FileName="Startup.cs" Line="29" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LibraryManagementSystem">
             <Node name="LibraryManagementSystem">
-              <Node name="Controllers">
-                <Node name="BookController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="Tests" expanded="True" selected="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

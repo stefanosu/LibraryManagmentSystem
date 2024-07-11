@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+ASEGfdcsXOVN29WRWfGUQdB8K6TAKTL50c6qWl2SVIyz+jEADXV7K6Hq60aG8r0aYfmrH9l6v3vzVrnlSdExw==",
+  "dgSpecHash": "Tip+8uKabmAwbVoSo0mwLTOM+EM/j+bqh86806A3VSum58f8zgcMzXnU3VVCOUL3z+GFpFI6jGaeQhjvEbc/Bw==",
   "success": true,
   "projectFilePath": "/Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementSystem/LibraryManagementSystem.csproj",
-  "expectedPackageFiles": [
-    "/Users/stefanosugbit/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "/Users/stefanosugbit/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "/Users/stefanosugbit/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.14/microsoft.netcore.app.host.osx-arm64.7.0.14.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
