@@ -28,9 +28,17 @@ namespace LibraryManagementSystem.Controllers
             return books;
         }
 
-        public void UpdateBook(Book book)
+        //update a book
+        public void UpdateBook(int id, Book updatedBook)
         {
-            //this method will update a book
+            var book = books.Find(book => book.Id == id);
+            if(book != null)
+            {
+                book.Title = updatedBook.Title;
+                book.Author = updatedBook.Author;
+                book.Price = updatedBook.Price;
+                book.Year = updatedBook.Year;
+            }
         }
 
 
@@ -57,6 +65,8 @@ namespace LibraryManagementSystem.Controllers
                     Console.WriteLine($"Id: {book.Id}, Title: {book.Title}, Author: {book.Author}, Price: {book.Price}, Year: {book.Year}");
                 }
 
+                //update book
+                bookController.UpdateBook(2, new Book { Id = 2, Title = "Ishamel" ,Author = "Daniel Quinn", Price = 25m , Year = 1995 });
             }
         }
     }
