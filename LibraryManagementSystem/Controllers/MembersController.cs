@@ -12,17 +12,32 @@ namespace LibraryManagementSystem.Controllers
         /// Creating a private list of books to stimulate a data store
         /// </summary>
         ///
-        private List<MemberService> members = new List<MemberService>
+        private List<Member> members = new List<Member>
         {
-            new MemberService {memberId = 1, bookId = 1, name = "Stefanos", transactionId = 1},
-            new MemberService { memberId = 2, bookId = 2, name= "Mus", transactionId = 2},
-            new MemberService { memberId = 3, bookId = 3, name= "Stasia", transactionId = 3}
+            new Member {memberId = 1, bookId = 1, name = "Stefanos", transactionId = 1},
+            new Member { memberId = 2, bookId = 2, name= "Mus", transactionId = 2},
+            new Member { memberId = 3, bookId = 3, name= "Stasia", transactionId = 3}
         }; 
 
-        public void AddMember(MemberService member)
+        public void AddMember(Member member)
 		{
             members.Add(member);
 		}
+
+        public List<Member> GetAllMembers()
+        {
+            return members;
+        }
+
+        public void UpdateMember(int memberId, Member updatedMember)
+        {
+            var member = Member.Find(member => memberId == Id);
+            if(member != null)
+             {
+                memberId = updatedMember.memberId;
+                member.name = updatedMember.name;
+             }
+        }
 	}
 }
 

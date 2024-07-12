@@ -1,7 +1,7 @@
 ﻿using System;
 namespace LibraryManagementSystem.Models
 {
-	public class MemberService
+	public class Member
 	{
 		//fields for members
 		public int memberId { get; set; }
