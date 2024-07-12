@@ -1,28 +1,23 @@
 ﻿<Properties StartupConfiguration="{3E155673-AF47-4A2D-B525-AA232A25E2C3}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LibraryManagementSystem/Controllers/MembersController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../LibraryManagementSystemTests/LibraryManagementSystemTests/UnitTest1.cs">
     <Files>
-      <File FileName="LibraryManagementSystem/Models/Transaction.cs" Line="11" Column="2" />
-      <File FileName="LibraryManagementSystem/Models/Book.cs" Line="12" Column="52" />
-      <File FileName="LibraryManagementSystem/Controllers/TransactionController.cs" Line="10" Column="4" />
-      <File FileName="LibraryManagementSystem/Controllers/BookController.cs" Line="52" Column="10" />
+      <File FileName="LibraryManagementSystem/Models/Transaction.cs" />
+      <File FileName="LibraryManagementSystem/Models/Book.cs" />
+      <File FileName="LibraryManagementSystem/Controllers/TransactionController.cs" />
+      <File FileName="LibraryManagementSystem/Controllers/BookController.cs" />
       <File FileName="LibraryManagementSystem/Controllers/MembersController.cs" Line="29" Column="1" />
-      <File FileName="LibraryManagementSystem/Models/Member.cs" Line="5" Column="3" />
-      <File FileName="LibraryManagementSystem/Models/ErrorViewModel.cs" Line="1" Column="1" />
-      <File FileName="LibraryManagementSystem/Program.cs" Line="4" Column="47" />
-      <File FileName="Startup.cs" Line="29" Column="1" />
+      <File FileName="LibraryManagementSystem/Models/Member.cs" />
+      <File FileName="LibraryManagementSystem/Models/ErrorViewModel.cs" />
+      <File FileName="LibraryManagementSystem/Program.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="../LibraryManagementSystemTests/LibraryManagementSystemTests/UnitTest1.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="LibraryManagementSystem">
-            <Node name="LibraryManagementSystem">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Tests" expanded="True" selected="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-              </Node>
+          <Node name="LibraryManagementSystem" expanded="True">
+            <Node name="LibraryManagementSystemTests" expanded="True">
+              <Node name="UnitTest1.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -31,7 +26,9 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.LibraryManagementSystem PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
