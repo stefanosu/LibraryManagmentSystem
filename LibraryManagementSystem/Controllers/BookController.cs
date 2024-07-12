@@ -1,9 +1,10 @@
 ﻿using System;
 using LibraryManagementSystem.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryManagementSystem.Controllers
 {
-    public class BookController
+    public class BookController : Controller
     {
         //create methods here for CRUD operations on books
 

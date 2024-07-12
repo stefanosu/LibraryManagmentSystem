@@ -1,9 +1,10 @@
 ﻿using System;
 using LibraryManagementSystem.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryManagementSystem.Controllers
 {
-	public class MembersController
+	public class MembersController : Controller 
 	{
         //create methods here for CRUD operations for memebers
 
