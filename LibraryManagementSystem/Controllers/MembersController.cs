@@ -8,7 +8,6 @@ namespace LibraryManagementSystem.Controllers
 	{
         //create methods here for CRUD operations for memebers
 
-
         /// <summary>
         /// Creating a private list of books to stimulate a data store
         /// </summary>
@@ -17,7 +16,8 @@ namespace LibraryManagementSystem.Controllers
         {
             new Member {memberId = 1, bookId = 1, name = "Stefanos", transactionId = 1},
             new Member { memberId = 2, bookId = 2, name= "Mus", transactionId = 2},
-            new Member { memberId = 3, bookId = 3, name= "Stasia", transactionId = 3}
+            new Member { memberId = 3, bookId = 3, name= "Stasia", transactionId = 3},
+            new Member { memberId = 3, bookId = 3, name= "Semir", transactionId = 3}
         }; 
 
         public void AddMember(Member member)

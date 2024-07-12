@@ -12,11 +12,12 @@ namespace LibraryManagementSystem.Controllers
         /// Creating a private list of books to stimulate a data store
         /// </summary>
         private List<Book> books = new List<Book>
-    {
+       {
         new Book { Id = 1, Title = "The Great Gatsby", Author = "F. Scott Fitzgerald", Price = 10.99m },
         new Book { Id = 2, Title = "1984", Author = "George Orwell", Price = 8.99m },
-        new Book { Id = 3, Title = "To Kill a Mockingbird", Author = "Harper Lee", Price = 9.99m }
-    };
+        new Book { Id = 3, Title = "To Kill a Mockingbird", Author = "Harper Lee", Price = 9.99m },
+        new Book { Id = 3, Title = "Harry Potter and the soceror's stone", Author = "J.K. Rowling", Price = 9.99m }
+        };
 
         public void AddBook(Book book)
         {
