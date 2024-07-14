@@ -32,7 +32,7 @@ namespace LibraryManagementSystem.Controllers
 
         public void UpdateMember(int memberId, Member updatedMember)
         {
-            var member = Member.Find(member => memberId == Id);
+            var member = members.Find(member => memberId == member.memberId);
             if(member != null)
              {
                 memberId = updatedMember.memberId;
