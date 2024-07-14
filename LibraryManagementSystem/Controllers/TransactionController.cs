@@ -38,10 +38,10 @@
             //remove a transaction
             public void removeTransaction(int transactionId)
             {
-                var transations = transactions.Find(transaction => transactionId == transaction.transactionId);
+                var transaction = transactions.Find(transaction => transactionId == transaction.transactionId);
                 if(transaction != null)
                 {
-                    removeTransaction(transaction); 
+                    removeTransaction(transactionId); 
                 }
             }
         }
