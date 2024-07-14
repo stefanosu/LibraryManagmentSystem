@@ -42,7 +42,11 @@ namespace LibraryManagementSystem.Controllers
 
         public void removeMethod(int memberId)
         {
-
+            var member = members.Find(member => memberId == member.memberId);
+            if(member != null)
+            {
+                removeMethod(memberId);
+            }
         }
 	}
 }

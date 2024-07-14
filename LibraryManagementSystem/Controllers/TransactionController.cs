@@ -39,9 +39,9 @@
             public void removeTransaction(int transactionId)
             {
                 var transations = transactions.Find(transaction => transactionId == transaction.transactionId);
-                if(transactionId != null)
+                if(transaction != null)
                 {
-                    removeTransaction(transactionId); 
+                    removeTransaction(transaction); 
                 }
             }
         }
