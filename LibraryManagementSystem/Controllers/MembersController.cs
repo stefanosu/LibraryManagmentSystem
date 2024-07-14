@@ -39,6 +39,11 @@ namespace LibraryManagementSystem.Controllers
                 member.name = updatedMember.name;
              }
         }
+
+        public void removeMethod(int memberId)
+        {
+
+        }
 	}
 }
 
