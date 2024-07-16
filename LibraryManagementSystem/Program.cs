@@ -32,5 +32,20 @@ public class Program
         {
             Console.WriteLine($"Id: {book.Id}, Title: {book.Title}, Author: {book.Author}, Price: {book.Price}, Year: {book.Year}");
         }
+
+        //instantiating a new instance of MemberController here
+
+        MembersController membersController = new MembersController();
+
+        //Adding a new member
+        membersController.AddMember(new Member { memberId = 1, bookId = 1, name = "Stefanos", transactionId = 1 });
+
+        //get all members
+        var allMembers = membersController.GetAllMembers();
+        foreach(var member in allMembers)
+        {
+            Console.WriteLine($"Id:, ");
+        }
+
     }
 }
