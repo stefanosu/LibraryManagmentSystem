@@ -47,5 +47,7 @@ public class Program
             Console.WriteLine($"Id:, ");
         }
 
+        //update member
+        membersController.UpdateBook(2, new Member { memberId = 2, bookId = 3, name = "Stefanos"});
     }
 }
