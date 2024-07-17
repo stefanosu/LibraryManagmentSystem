@@ -47,7 +47,10 @@ public class Program
             Console.WriteLine($"Id:, ");
         }
 
-        //update member
-        membersController.UpdateBook(2, new Member { memberId = 2, bookId = 3, name = "Stefanos"});
+        //update member 
+        membersController.UpdateMember(2, new Member { memberId = 2, bookId = 3, name = "Stefanos"});
+
+        //remove a member pass in memberId 
+        membersController.removeMember(3);
     }
 }
