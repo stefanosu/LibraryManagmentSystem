@@ -17,7 +17,7 @@
             };
 
             //add a transaction 
-            public void AddTransaction(Transaction transaction)
+            public void addTransaction(Transaction transaction)
             {
                 transactions.Add(transaction);
             }

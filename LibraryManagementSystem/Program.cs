@@ -44,7 +44,7 @@ public class Program
         var allMembers = membersController.GetAllMembers();
         foreach(var member in allMembers)
         {
-            Console.WriteLine($"Id:, ");
+            Console.WriteLine($"Id: {member.memberId}, bookId: {member.bookId}, Name: {member.name}, transactionId: {member.transactionId}");
         }
 
         //update member 
@@ -52,5 +52,18 @@ public class Program
 
         //remove a member pass in memberId 
         membersController.removeMember(3);
+
+        //  instantiating a new instance of TransactionController here
+        TransactionController transactionController = new TransactionController();
+
+        // Adding a new transaction
+        transactionController.addTransaction(new Transaction { transactionId = 5, bookId = 5, memberId = 4 });
+
+        // get all transactions
+        var allTransactions = transactionController.getAllTransactions();
+        foreach(var transaction in allTransactions)
+        {
+            Console.WriteLine($"TransactionId: {transaction.transactionId}, BookId: {transaction.bookId}, MemberId: {transaction.memberId}");
+        }
     }
 }
