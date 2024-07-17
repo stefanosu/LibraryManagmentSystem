@@ -65,5 +65,11 @@ public class Program
         {
             Console.WriteLine($"TransactionId: {transaction.transactionId}, BookId: {transaction.bookId}, MemberId: {transaction.memberId}");
         }
+
+        //update transactions
+        transactionController.updateTransaction(6, new Transaction {bookId = 5, memberId = 4,  });
+
+        //remove transaction
+        transactionController.removeTransaction(7);
     }
 }
