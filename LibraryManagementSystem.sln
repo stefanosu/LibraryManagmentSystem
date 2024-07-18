@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Startup.cs = Startup.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementSystemTests", "..\LibraryManagementSystemTests\LibraryManagementSystemTests\LibraryManagementSystemTests.csproj", "{5518AF91-28DF-4BB9-89C3-5E4F64015F81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementTests", "LibraryManagementTests\LibraryManagementTests.csproj", "{F44791CF-9525-438C-8BDE-70AB760F429C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,10 @@ Global
 		{3E155673-AF47-4A2D-B525-AA232A25E2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E155673-AF47-4A2D-B525-AA232A25E2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E155673-AF47-4A2D-B525-AA232A25E2C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5518AF91-28DF-4BB9-89C3-5E4F64015F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5518AF91-28DF-4BB9-89C3-5E4F64015F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5518AF91-28DF-4BB9-89C3-5E4F64015F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5518AF91-28DF-4BB9-89C3-5E4F64015F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44791CF-9525-438C-8BDE-70AB760F429C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44791CF-9525-438C-8BDE-70AB760F429C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44791CF-9525-438C-8BDE-70AB760F429C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44791CF-9525-438C-8BDE-70AB760F429C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,34 +1,27 @@
 ﻿<Properties StartupConfiguration="{3E155673-AF47-4A2D-B525-AA232A25E2C3}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../LibraryManagementSystemTests/LibraryManagementSystemTests/UnitTest1.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.LibraryManagementTests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LibraryManagementSystem/Controllers/BookController.cs">
     <Files>
       <File FileName="LibraryManagementSystem/Models/Transaction.cs" />
       <File FileName="LibraryManagementSystem/Models/Book.cs" />
       <File FileName="LibraryManagementSystem/Controllers/TransactionController.cs" />
-      <File FileName="LibraryManagementSystem/Controllers/BookController.cs" />
-      <File FileName="LibraryManagementSystem/Controllers/MembersController.cs" Line="29" Column="1" />
+      <File FileName="LibraryManagementSystem/Controllers/BookController.cs" Line="23" Column="10" />
+      <File FileName="LibraryManagementSystem/Controllers/MembersController.cs" />
       <File FileName="LibraryManagementSystem/Models/Member.cs" />
-      <File FileName="LibraryManagementSystem/Models/ErrorViewModel.cs" />
       <File FileName="LibraryManagementSystem/Program.cs" />
       <File FileName="Startup.cs" />
-      <File FileName="../LibraryManagementSystemTests/LibraryManagementSystemTests/UnitTest1.cs" Line="16" Column="1" />
+      <File FileName="LibraryManagementSystem/Controllers/HomeController.cs" />
+      <File FileName="LibraryManagementSystem/Models/ErrorViewModel.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="LibraryManagementSystem" expanded="True">
-            <Node name="LibraryManagementSystemTests" expanded="True">
-              <Node name="UnitTest1.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.LibraryManagementSystem PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "DazUyofzp3F7iazNlp7qF6brkRtec6U5Q/HtiWBheCJwZn8lyOGV6WQnPuI5HVnlQpzTHMNqrWNeQybHJZo2Qw==",
+  "success": true,
+  "projectFilePath": "/Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementTests/LibraryManagementTests.csproj",
+  "expectedPackageFiles": [
+    "/Users/stefanosugbit/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/microsoft.codecoverage/17.7.1/microsoft.codecoverage.17.7.1.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/microsoft.net.test.sdk/17.7.1/microsoft.net.test.sdk.17.7.1.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/microsoft.testplatform.objectmodel/17.7.1/microsoft.testplatform.objectmodel.17.7.1.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/microsoft.testplatform.testhost/17.7.1/microsoft.testplatform.testhost.17.7.1.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/nuget.frameworks/6.5.0/nuget.frameworks.6.5.0.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/nunit.analyzers/3.6.1/nunit.analyzers.3.6.1.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/nunit3testadapter/4.4.2/nunit3testadapter.4.4.2.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/stefanosugbit/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
