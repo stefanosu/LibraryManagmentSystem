@@ -8,8 +8,12 @@ public class Tests
     }
 
     [Test]
-    public void Test1()
+    //test to check if book was created
+    public void AddBook()
     {
-        Assert.Pass();
+        if(AddBook != null)
+        {
+            Assert.Pass();
+        }
     }
 }
