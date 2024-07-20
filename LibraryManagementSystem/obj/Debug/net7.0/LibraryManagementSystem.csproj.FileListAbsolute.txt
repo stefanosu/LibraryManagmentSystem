@@ -28,4 +28,3 @@
 /Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementSystem/obj/Debug/net7.0/LibraryManagementSystem.pdb
 /Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementSystem/obj/Debug/net7.0/LibraryManagementSystem.genruntimeconfig.cache
 /Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementSystem/obj/Debug/net7.0/ref/LibraryManagementSystem.dll
-/Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementSystem/obj/Debug/net7.0/LibraryManagementSystem.sourcelink.json

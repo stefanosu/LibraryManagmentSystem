@@ -377,6 +377,19 @@
             "related": ".xml"
           }
         }
+      },
+      "LibraryManagementSystem/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/LibraryManagementSystem.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryManagementSystem.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -969,10 +982,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "LibraryManagementSystem/1.0.0": {
+      "type": "project",
+      "path": "../LibraryManagementSystem/LibraryManagementSystem.csproj",
+      "msbuildProject": "../LibraryManagementSystem/LibraryManagementSystem.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "LibraryManagementSystem >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.7.1",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
@@ -1004,7 +1023,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementSystem/LibraryManagementSystem.csproj": {
+              "projectPath": "/Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementSystem/LibraryManagementSystem.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1049,22 +1072,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }

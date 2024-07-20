@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DazUyofzp3F7iazNlp7qF6brkRtec6U5Q/HtiWBheCJwZn8lyOGV6WQnPuI5HVnlQpzTHMNqrWNeQybHJZo2Qw==",
+  "dgSpecHash": "yHv3y2kVDF0SK5kt7kvGZOHvAFExV30Xz1/3XhGwQDaqo5mtUbQTooi/3NU7KgiiYXYVbboCj1My9gUSlllf1A==",
   "success": true,
   "projectFilePath": "/Users/stefanosugbit/Projects/LibraryManagementSystem/LibraryManagementTests/LibraryManagementTests.csproj",
   "expectedPackageFiles": [
@@ -16,9 +16,7 @@
     "/Users/stefanosugbit/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
     "/Users/stefanosugbit/.nuget/packages/nunit.analyzers/3.6.1/nunit.analyzers.3.6.1.nupkg.sha512",
     "/Users/stefanosugbit/.nuget/packages/nunit3testadapter/4.4.2/nunit3testadapter.4.4.2.nupkg.sha512",
-    "/Users/stefanosugbit/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
-    "/Users/stefanosugbit/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "/Users/stefanosugbit/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+    "/Users/stefanosugbit/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
 }
