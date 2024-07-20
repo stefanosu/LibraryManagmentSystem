@@ -1,16 +1,20 @@
 ﻿using LibraryManagementSystem.Models;
 using LibraryManagementSystem.Controllers;
+using LibraryManagementSystem.Interfaces;
+using Moq;
+using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryManagementTests;
 
 public class LibraryTests
 {
-    private mockBookController
+    private Mock<IBookService> mockBookService;
     private BookController bookController;
 
     [SetUp]
     public void Setup()
     {
+        mockBookService = new Mock<IBookService>();
         bookController = new BookController();
     }
 
@@ -27,12 +31,18 @@ public class LibraryTests
         };
 
         //Act
-        var result = bookController.AddBook(book); 
+        object result;
+        if ()
+        {
+            result = bookController.AddBook(book);
+        }
+        else
+        {
+            result =;
+        }
 
         //Assert
-        Assert.AreEqual(1, books);
-        Assert.AreEqual("To Kill a Mockingbird", books[0].Title);
-        Assert.AreEqual("Harper Lee", books[0].Author);
-        Assert.AreEqual(1950, books[0].Year);
+        mockBookService.Verify(service => service.AddBook(It.Is<Book>(b => b == book)), Times.Once);
+        Assert.IsInstanceOf<OkObjectResult>(result);
     }
 }
