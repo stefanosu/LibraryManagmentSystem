@@ -31,15 +31,7 @@ public class LibraryTests
         };
 
         //Act
-        object result;
-        if ()
-        {
-            result = bookController.AddBook(book);
-        }
-        else
-        {
-            result =;
-        }
+        var result = bookController.AddBook;
 
         //Assert
         mockBookService.Verify(service => service.AddBook(It.Is<Book>(b => b == book)), Times.Once);
